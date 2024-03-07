@@ -22,15 +22,20 @@ namespace ArrayMult
             float soma = 0.0;
 
             //for linhas em amtrix
-            for (i = 0; i < matrix.GetLength(0); i++)
+            for (int i = 0; i < matrix.GetLength(0); i++)
             {
-                for (j = 0; j < matrix.GetLength(1); j++)
+                for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    float soma += matrix[i,j] * vector[j];
+                    soma += matrix[i,j] * vector[j];
                 }
                 vector_final[i] = soma;
                 soma = 0.0;
             }  
+
+            foreach(float f in vector_final)
+            {
+                Console.WriteLine(f);
+            }
         }
     }
 }
