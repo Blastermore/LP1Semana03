@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeString", "ChangeString\ChangeString.csproj", "{C05D808F-063A-43FA-873D-6A2E0AB684DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMult", "ArrayMult\ArrayMult.csproj", "{1BB703F5-20D4-4BDD-A1FA-4B9AB9F7DB05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C05D808F-063A-43FA-873D-6A2E0AB684DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05D808F-063A-43FA-873D-6A2E0AB684DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05D808F-063A-43FA-873D-6A2E0AB684DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB703F5-20D4-4BDD-A1FA-4B9AB9F7DB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB703F5-20D4-4BDD-A1FA-4B9AB9F7DB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB703F5-20D4-4BDD-A1FA-4B9AB9F7DB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB703F5-20D4-4BDD-A1FA-4B9AB9F7DB05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
