@@ -46,12 +46,20 @@ namespace PlayerPowers
                 for (int j =0; j < 3; j++)
                 {
                     string power = player_powers[i][j];
-                    Console.Write($"{power}  ");
+                    if (player_powers[i][j] != "")
+                    {
+                        Console.Write($"{power} ");
+                    }
+                    else
+                    {
+                        Console.Write("");
+                    }
                 }
+                Console.WriteLine("");
                 if (player_powers[i][0] == "Fly" &&
                 player_powers[i][2] == "SuperStrength")
                 {
-                    Console.WriteLine("\nFlying radiation!");
+                    Console.WriteLine("Flying radiation!");
                 }
             }
 
