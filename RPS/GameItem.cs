@@ -3,7 +3,7 @@ using System;
 namespace RPS
 {
     [Flags]
-    enum GameItems
+    enum GameItem
     {
         Rock = 1 << 0,
         Paper = 1 << 1,
